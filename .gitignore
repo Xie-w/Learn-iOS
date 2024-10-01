@@ -1,0 +1,21 @@
+
+
+.DS_Store
+*/.DS_Store
+
+### Xcode Patch ###
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcworkspace/contents.xcworkspacedata
+/*.gcno
+
+*.xcodeproj/xcuserdata/
+
+GoogleService-Info.plist
+Pods/
+
+fastlane/README.md
+fastlane/report.xml
+fastlane/Nexus.app.dSYM.zip
+fastlane/Nexus.ipa
